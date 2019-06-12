@@ -19,5 +19,9 @@ class App < Sinatra::Base
     @number.times { string += "#{@phrase}\n" }
     string
   end
+  
+  get "get /say/:word1/:word2/:word3/:word4/:word5" do
+    
+  end
 
 end
